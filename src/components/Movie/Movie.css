@@ -162,7 +162,7 @@
     /* width: 30vw; */
     margin-bottom: 4vh;
   }
-  .favBTN {
+  .MuiSvgIcon-root.normal {
     display: flex;
     justify-content: center;
     margin-top: 3vw !important;

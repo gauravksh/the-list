@@ -12,7 +12,16 @@
 /* overflow-y: hidden; */
 /* width: 100vw; */
 /* min-height: 100vh; */
-
+.MuiBottomNavigation-root.jss1.css-de1c49 {
+  background-color: white;
+}
+.MuiSvgIcon-root.red,
+.normal {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5vw !important;
+  align-items: flex-start;
+}
 .App {
   text-align: center;
   background-color: #282c34;

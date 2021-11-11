@@ -12,7 +12,6 @@ import { auth } from "../../fire";
 import { db } from "../../fire";
 import { collection, doc, setDoc, deleteDoc } from "firebase/firestore";
 import FavoriteIcon from "@material-ui/icons/Favorite";
-import { IconButton } from "@mui/material";
 
 const Movie = ({ delID, index, id, mediaType, w, f, l, p, k }) => {
   // console.log(id, mediaType);
@@ -220,9 +219,7 @@ const Movie = ({ delID, index, id, mediaType, w, f, l, p, k }) => {
                 }
               }}
             >
-              <IconButton>
-                <FavoriteIcon className={isClick ? "red" : "normal"} />
-              </IconButton>
+              <FavoriteIcon className={isClick ? "red" : "normal"} />
             </button>
 
             <button
