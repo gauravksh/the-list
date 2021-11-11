@@ -223,7 +223,7 @@ const Movie = ({ delID, index, id, mediaType, w, f, l, p, k }) => {
             </button>
 
             <button
-              className={w ? "" : "hideButton"}
+              className={w ? "delBTN" : "hideButton"}
               onClick={() => {
                 removeFrom((delID = id), (w = w), (p = false), (f = false));
               }}
@@ -231,7 +231,7 @@ const Movie = ({ delID, index, id, mediaType, w, f, l, p, k }) => {
               <DeleteOutlineIcon />
             </button>
             <button
-              className={p ? "" : "hideButton"}
+              className={p ? "delBTN" : "hideButton"}
               onClick={() => {
                 removeFrom((delID = id), (w = false), (p = p), (f = false));
               }}
@@ -239,7 +239,7 @@ const Movie = ({ delID, index, id, mediaType, w, f, l, p, k }) => {
               <DeleteOutlineIcon />
             </button>
             <button
-              className={f ? "" : "hideButton"}
+              className={f ? "delBTN" : "hideButton"}
               style={{ color: "white" }}
               onClick={() => {
                 removeFrom((delID = id), (w = false), (p = false), (f = f));

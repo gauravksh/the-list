@@ -19,7 +19,7 @@
 .normal {
   display: flex;
   justify-content: center;
-  margin-top: 1.5vw !important;
+  /* margin-top: 1.5vw !important; */
   align-items: flex-start;
 }
 .App {
