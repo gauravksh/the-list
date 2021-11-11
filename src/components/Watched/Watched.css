@@ -1,0 +1,35 @@
+.WatchedPage {
+  min-height: 95vh;
+  margin-top: -8vh;
+  overflow-y: hidden;
+  padding-bottom: 8vh;
+  overflow-x: hidden;
+}
+.invisible {
+  display: none;
+}
+.trendingTitle {
+  width: 100%;
+  height: 7vh;
+  margin-top: 10vh;
+  font-size: 4vh;
+  font-family: "nunito", sans-serif;
+  color: white;
+  display: flex;
+  /* margin-left: 3rem; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.nothing {
+  width: 100%;
+  height: 70vh;
+  font-size: 4vh;
+  font-family: "nunito", sans-serif;
+  color: white;
+  display: flex;
+  /* margin-left: 3rem; */
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}

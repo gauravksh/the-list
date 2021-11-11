@@ -1,0 +1,55 @@
+* {
+  scroll-behavior: smooth;
+  /* background-color: #282c34; */
+}
+.bound {
+  background-color: #282c34;
+  z-index: 100;
+  /* display: flex;
+  justify-content: center; */
+}
+/* background-repeat: repeat-y; */
+/* overflow-y: hidden; */
+/* width: 100vw; */
+/* min-height: 100vh; */
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  color: #fff;
+  /* min-height: 100vh;
+  /* min-width: 100vw; */
+  padding-top: 4rem;
+  /* margin-bottom: 4vh; */
+  /* padding-bottom: 4rem; */
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.bottomNav {
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  overflow-x: hidden;
+  background-color: #fff;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* background-color: darkcyan; */
+}
+
+.go4268192979 {
+  width: 65px !important;
+  height: 65px !important;
+  margin: -20px -20px -10px -25px !important;
+  /* margin: 0; */
+  padding: 0;
+  /* display: flex;
+  justify-content: start;
+  align-items: flex-start; */
+}
+
+@media (hover: hover) {
+}
+.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  margin-top: 1vw;
+  padding: 0;
+}

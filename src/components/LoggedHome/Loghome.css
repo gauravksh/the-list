@@ -1,0 +1,52 @@
+.trending {
+  /* margin-top: 4rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: #282c34;
+  margin-bottom: 8vh;
+}
+.trendBound {
+  min-height: 95vh;
+  margin-top: -8vh;
+  overflow: hidden !important;
+  /* margin-bottom: 8vh; */
+}
+.homenav {
+  background-color: white;
+}
+.bottomNav {
+  background-color: white !important;
+}
+.trendingTitle {
+  width: 100%;
+  height: 7vh;
+  font-size: 4vh;
+  margin-top: 10vh;
+  font-family: "nunito", sans-serif;
+  color: white;
+  display: flex;
+  margin-left: 0;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .trendingTitle {
+    /* margin-left: 0.4rem; */
+    font-size: 3vh;
+    width: 100%;
+  }
+
+  .trendBound {
+    min-height: 95vh;
+    margin-top: -12vh;
+    overflow: hidden !important;
+    /* margin-bottom: 8vh; */
+  }
+}
+.MuiBottomNavigation-root.makeStyles-root-1.css-16lloyr-MuiBottomNavigation-root {
+  background-color: white !important;
+}

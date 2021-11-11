@@ -1,0 +1,29 @@
+.carouselItem {
+  display: flex;
+  flex-direction: column;
+  object-fit: contain;
+  align-items: center;
+  padding: 4vh 0vh 3vh 0vh;
+}
+.carouselItem__img {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 5px black;
+  width: 60%;
+}
+.carouselItem__txt {
+  font-size: 0.8rem;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .carouselItem__img {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px black;
+    width: 80%;
+  }
+  .carouselItem__txt {
+    font-size: 0.8rem;
+    align-items: center;
+  }
+}

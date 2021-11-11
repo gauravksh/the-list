@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  margin: 15px 0;
+  /* height: 6vh; */
+}
+/* .searchBox {
+  height: 6vh;
+} */
+.MuiTab-wrapper {
+  color: white;
+}
+.SearchPage {
+  min-height: 85vh;
+  overflow: hidden;
+  margin-bottom: 8vh;
+}
+/* .MuiInputBase-input.MuiFilledInput-input {
+  padding-bottom: 0;
+  padding-top: 1vh;
+  margin: 0;
+}
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiInputBase-formControl {
+  height: 6vh;
+} */
+.tabs {
+  margin-bottom: 15px;
+}

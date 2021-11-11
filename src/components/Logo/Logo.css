@@ -1,0 +1,19 @@
+.home_logo:hover {
+  cursor: pointer;
+}
+
+.logo_mainLine {
+  font-size: calc(10px + 4vmin);
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+}
+
+.logo_h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* padding: 0.4em; */
+  line-height: 1.2em;
+}
+.listID {
+  color: darkcyan;
+}
